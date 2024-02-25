@@ -9,11 +9,13 @@ import { faFacebook,
   faDev, 
   faGithub} from "@fortawesome/free-brands-svg-icons";
 
+import photo from "8e5aded0d59d01b731e70830feaecd57.jpeg";
+
 function App() {
   return (
     <div className="website">
       <div className="card">
-        <img className="profile-pic" alt="" src="8e5aded0d59d01b731e70830feaecd57.jpeg">
+        <img className="profile-pic" alt="" src={photo}>
         </img>
         <div className="personal-details">
           <h1>Noah Hernandez</h1>
